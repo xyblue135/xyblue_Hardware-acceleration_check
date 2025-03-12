@@ -1,5 +1,7 @@
 # xyblue_Hardware-acceleration_check
 用来检测系统目前支持的硬件加速，如qsv，cuda，VAAPI ，OpenCL等
+# 使用须知
+需要有一定硬件编码解码基础和py基础，且对ffmpeg有了解
 
 # 如何使用
 首先确保你的电脑中安装了ffmpeg，因为此脚本是通过ffmpeg的各种操作来验证相关的硬件加速能否正常使用，你甚至可以自己编译一个ffmpeg，然后使用下述命令可以查看出当前系统上支持的硬件加速方法
